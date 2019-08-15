@@ -1,6 +1,6 @@
 ## Description
 
-This repository contains my [Hammerspoon](http://www.hammerspoon.org) config.
+This repository contains my [Hammerspoon](http://www.hammerspoon.org) config. This config is focused on keyboard driven workflows.
 
 ## Prerequisites
 
@@ -15,12 +15,16 @@ This setup assumes you don't have the above dependencies installed.
 
 ```sh
 git clone https://github.com/cldwalker/hammerspoon-files ~/.hammerspoon
-cd ~/.hammerspoon
 
 git clone https://github.com/cldwalker/keyboard.git ~/.keyboard
 cd ~/.keyboard
 script/setup
 ```
+
+## Features
+* All the [keyboard features](https://github.com/jasonrudolph/keyboard#features) except for super duper mode and word navigation
+* Key combos for [often used apps](https://github.com/cldwalker/keyboard/blob/master/hammerspoon/hyper-apps.lua)
+* Key combo for toggling mute on mic
 
 ## License
 See LICENSE.md
