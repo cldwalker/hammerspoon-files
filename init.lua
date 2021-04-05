@@ -12,6 +12,12 @@ spoon.SpoonInstall.use_syncinstall = true
 
 -- Installed 8/11
 spoon.SpoonInstall:andUse('MicMute', {hotkeys = {toggle = {{"cmd", "alt"}, "m"}}})
+spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
+                            config = {
+                              use_frame_correctness = true
+                            },
+                            hotkeys = 'default'
+                          })
 
 -- Additional hs scripts not packaged as spoons
 
