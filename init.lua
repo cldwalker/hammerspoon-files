@@ -20,6 +20,10 @@ spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
                           })
 
 -- Additional hs scripts not packaged as spoons
+-- From http://www.hammerspoon.org/go/#pasteblock
+hs.hotkey.bind({"cmd", "alt"}, "V", function() hs.eventtap.keyStrokes(hs.pasteboard.getContents()) end)
+-- See if I do much Chrome text linking
+hs.hotkey.bind({"cmd", "alt"}, "T", function() hs.eventtap.keyStrokes("#:~:text=") end)
 
 -- Hammerspoon bits from https://github.com/jasonrudolph/keyboard
 require('keyboard')
