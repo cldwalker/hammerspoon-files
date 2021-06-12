@@ -24,6 +24,7 @@ spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
 hs.hotkey.bind({"cmd", "alt"}, "V", function() hs.eventtap.keyStrokes(hs.pasteboard.getContents()) end)
 -- See if I do much Chrome text linking
 hs.hotkey.bind({"cmd", "alt"}, "T", function() hs.eventtap.keyStrokes("#:~:text=") end)
+hs.hotkey.bind({"cmd", "alt"}, "L", function() hs.execute("bb-logseq-convert --clear-anybar", true) end)
 
 -- Hammerspoon bits from https://github.com/jasonrudolph/keyboard
 require('keyboard')
