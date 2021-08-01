@@ -22,9 +22,11 @@ script/setup
 ```
 
 ## Features
-* All the [keyboard features](https://github.com/jasonrudolph/keyboard#features) except for super duper mode and word navigation
+* All the [keyboard features](https://github.com/jasonrudolph/keyboard#features) except for word navigation
 * Key combos for [often used apps](https://github.com/cldwalker/keyboard/blob/master/hammerspoon/hyper-apps.lua)
 * Key combo for toggling mute on mic
+* Custom menu for [MenuHammer](https://github.com/FryJay/MenuHammer). Note: MenuHammer is copied in
+  unlike other spoons because it's not in the official spoon repo.
 
 ## License
 See LICENSE.md

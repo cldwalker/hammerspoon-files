@@ -10,7 +10,7 @@ spoon.SpoonInstall.use_syncinstall = true
 -- ================
 -- Spoons don't have versions so I put dates next to them for some identification
 
--- Installed 8/11
+-- Installed 8/11/19
 spoon.SpoonInstall:andUse('MicMute', {hotkeys = {toggle = {{"cmd", "alt"}, "m"}}})
 spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
                             config = {
@@ -18,6 +18,10 @@ spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
                             },
                             hotkeys = 'default'
                           })
+
+-- menuHammer spoon, installed 7/31/21
+menuHammer = hs.loadSpoon("MenuHammer")
+menuHammer:enter()
 
 -- Additional hs scripts not packaged as spoons
 -- From http://www.hammerspoon.org/go/#pasteblock
