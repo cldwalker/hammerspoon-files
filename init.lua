@@ -12,12 +12,13 @@ spoon.SpoonInstall.use_syncinstall = true
 
 -- Installed 8/11/19
 spoon.SpoonInstall:andUse('MicMute', {hotkeys = {toggle = {{"cmd", "alt"}, "m"}}})
-spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
-                            config = {
-                              use_frame_correctness = true
-                            },
-                            hotkeys = 'default'
-                          })
+-- Disabled b/c it conflicts with vscode keybindings I like
+-- spoon.SpoonInstall:andUse("WindowHalfsAndThirds", {
+--                             config = {
+--                               use_frame_correctness = true
+--                             },
+--                             hotkeys = 'default'
+--                           })
 
 -- menuHammer spoon, installed 7/31/21
 menuHammer = hs.loadSpoon("MenuHammer")
